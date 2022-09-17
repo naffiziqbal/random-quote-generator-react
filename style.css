@@ -9,3 +9,20 @@ h3{
     font-weight: 700;
     font-size: 2.5rem;
 }
+
+button{
+    color: whitesmoke;
+    background: tomato;
+    font-size: 1.5rem;
+    border: none;
+    padding: 2rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.quote{
+    color: rgb(49, 155, 49);
+}

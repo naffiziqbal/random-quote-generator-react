@@ -9,7 +9,8 @@ const displayData = (id)=>{
     const dataContainer = document.getElementById('display-data');
     const showData = document.createElement('div');
     showData.innerHTML = `
-    <h4>${id?.quote ? id.quote : 'Try Refreshing Again'}</h4>
+    <h3>${id?.quote ? id.quote : 'Try Refreshing Again'}</h3>
+    <h4>${id.author}</h4>
     `;
     dataContainer.appendChild(showData)
 }
